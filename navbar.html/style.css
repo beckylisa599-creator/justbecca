@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    background-color:black;
+    padding: 20px 40px;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.logo{
+    color:white;
+}
+    
+.navbar ul{
+    list-style:none;
+    display:flex; 
+    gap: 25px;
+}
+
+.navbar ul li a{
+    color:white;
+    display:block;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    background-color:gray;
+    border-radius:5px;
+}
+
+
+    
